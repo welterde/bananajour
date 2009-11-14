@@ -8,6 +8,8 @@ require 'digest/md5'
 
 require 'bananajour/gem_dependencies'
 
+# patch required for the current version of rainbow..
+PLATFORM=RUBY_PLATFORM
 Bananajour.require_gem 'rainbow'
 Bananajour.require_gem 'dnssd'
 Bananajour.require_gem 'fancypath'
